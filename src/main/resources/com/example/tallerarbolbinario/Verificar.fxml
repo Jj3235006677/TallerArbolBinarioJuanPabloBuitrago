@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="172.0" prefWidth="308.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tallerarbolbinario.VerificarController">
+   <children>
+      <Button layoutX="120.0" layoutY="150.0" mnemonicParsing="false" onAction="#obtenerFuncionalidad" text="Obtener" visible="true" />
+      <ComboBox fx:id="comboBoxSeleccion" layoutX="79.0" layoutY="81.0" prefWidth="150.0" />
+      <Label layoutX="42.0" layoutY="50.0" prefHeight="22.0" prefWidth="226.0" text="Selecione lo que desee verificar">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldValorVerificar" layoutX="79.0" layoutY="114.0" prefHeight="26.0" prefWidth="150.0" promptText="Verificar Contenido" visible="false" />
+
+   </children>
+</AnchorPane>

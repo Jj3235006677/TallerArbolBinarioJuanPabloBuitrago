@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="172.0" prefWidth="308.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tallerarbolbinario.ImprimirController">
+   <children>
+      <Button layoutX="120.0" layoutY="126.0" mnemonicParsing="false" onAction="#obtenerFuncionalidad" text="Obtener" visible="true" />
+      <ComboBox fx:id="comboBoxSeleccion" layoutX="79.0" layoutY="92.0" prefWidth="150.0" />
+      <Label layoutX="30.0" layoutY="57.0" prefHeight="22.0" prefWidth="248.0" text="Selecione lo que desee imprimir">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </Label>
+
+
+   </children>
+</AnchorPane>

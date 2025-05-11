@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="120" prefWidth="186.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tallerarbolbinario.AgregarController">
+   <children>
+      <TextField fx:id="textFieldValorNuevo" layoutX="46.0" layoutY="60.0" prefHeight="26.0" prefWidth="95.0" promptText="Valor Nuevo" visible="true" />
+      <Button layoutX="60.0" layoutY="89.0" mnemonicParsing="false" onAction="#AgregarElemento" text="Agregar" visible="true" />
+      <Label layoutX="35.0" layoutY="27.0" text="Ingrese un valor">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

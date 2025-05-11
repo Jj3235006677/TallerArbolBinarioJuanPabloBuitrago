@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tallerarbolbinario.ArbolInterfaceController">
+   <children>
+      <Button layoutX="432.0" layoutY="347.0" mnemonicParsing="false" onAction="#agregarNodo" text="Agregar" />
+      <Button layoutX="158.0" layoutY="347.0" mnemonicParsing="false" onAction="#ImprimirFuncionalidad" text="Imprimir" />
+      <TableView fx:id="TableViewHijos" layoutX="114.0" layoutY="56.0" prefHeight="200.0" prefWidth="351.0">
+        <columns>
+            <TableColumn fx:id="tableColumnivel" prefWidth="43.0" text="Nivel" />
+          <TableColumn fx:id="tableColumnPadre" prefWidth="107.0" text="Padre" />
+          <TableColumn fx:id="tableColumnHijoIzquierdo" prefWidth="100.0" text="Hijo izquierdo " />
+            <TableColumn fx:id="tableColumnHijoDerecho" prefWidth="100.0" text="Hijo Derecho " />
+        </columns>
+      </TableView>
+      <Button layoutX="348.0" layoutY="347.0" mnemonicParsing="false" onAction="#elimanrElemento" text="Eliminar" />
+      <Button layoutX="66.0" layoutY="347.0" mnemonicParsing="false" onAction="#verificarFuncionalidad" prefHeight="26.0" prefWidth="79.0" text="Verificar" />
+      <Button layoutX="253.0" layoutY="347.0" mnemonicParsing="false" onAction="#obtenerFuncionalidad" text="Obtener " />
+   </children>
+</AnchorPane>

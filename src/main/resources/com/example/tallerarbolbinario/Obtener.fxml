@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="172.0" prefWidth="308.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tallerarbolbinario.ObtenerController">
+   <children>
+      <Button layoutX="120.0" layoutY="130.0" mnemonicParsing="false" onAction="#obtenerFuncionalidad" text="Obtener" visible="true" />
+      <ComboBox fx:id="comboBoxSeleccion" layoutX="79.0" layoutY="60.0" prefWidth="150.0" />
+      <Label layoutX="40.0" layoutY="29.0" prefHeight="22.0" prefWidth="230.0" text="Selecione lo que desee obtener">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldElemeno" layoutX="96.0" layoutY="97.0" prefHeight="26.0" prefWidth="116.0" promptText="Valor verificar" visible="false" />
+
+   </children>
+</AnchorPane>
